@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding :0;
+}
+.top{    
+    width: 100vw;
+    background-color: black;
+    padding: 18px 14px;
+    font-family: 'Shizuru', cursive;
+    font-size: 1.1rem;
+    
+}
+
+.top ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#list {
+    
+    list-style-type: none;
+    
+
+}
+
+#list a{
+    
+    text-decoration: none;
+    padding:7px 20px;
+    font-size: 22px;
+    color: white;
+
+}
+
+#list a:hover{
+    color: red;
+}
+
+#introSection{
+    padding-top: 20px;
+    
+    color: white;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 3rem;
+    background: center / cover no-repeat url(../static/bg.jpg);
+    
+}
+
+#introSection div.small{
+    font-size: 2rem;
+}
+
+#sponsorSection{
+    height: 300px;
+    background-color: wheat ;
+    
+}
+
+#sponsorSection h3{
+    color: rgb(10, 2, 2);
+    padding-top: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Pushster', cursive;
+}
+
+#ourmission{
+    height: auto;
+    background-color: rgb(199, 170, 116) ;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#ourmission h3{
+    color: rgb(10, 2, 2);
+    padding-top: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Pushster', cursive;
+    
+}
+
+.card{
+    width: 90%;
+    margin: auto;
+    
+    border-radius: 4px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.goals{
+    margin-top: 40px;
+    background-color: yellow;
+    height: 300px;
+    width: 20%;
+    border-radius: 10px;
+    min-width: 200px;
+    margin-bottom: 40px ;
+    
+    border:2px solid;
+
+}
+
+
+
+
+#myfooter{
+    height: 50px;
+    background-color: black;
+}
